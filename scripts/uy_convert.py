@@ -24,7 +24,7 @@ RANK = {"PARTE": 1, "LIBRO": 2, "SECCION": 3, "TITULO": 4, "CAPITULO": 5, "SUBCA
 def plain(s):
     s = re.sub(r"(?i)<br\s*/?>", "\n", s or "")
     s = re.sub(r"<[^>]+>", "", s)
-    return html.unescape(s)
+    return html.unescape(s).replace("\r\n", "\n").replace("\r", "\n")
 
 
 def kind_of(h):
