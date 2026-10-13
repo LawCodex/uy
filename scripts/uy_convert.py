@@ -149,7 +149,7 @@ def main():
                 out = os.path.join(REPO, "codigos", f"{base}.md")
                 typ = "code"
             os.makedirs(os.path.dirname(out), exist_ok=True)
-            open(out, "w", encoding="utf-8").write(convert(d, base, key, title, typ, url))
+            open(out, "w", encoding="utf-8").write(convert(d, base, key, title, typ, url).replace("\r", ""))
             n += 1
     print("written", n)
 

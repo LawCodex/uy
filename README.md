@@ -17,7 +17,7 @@ Status: **partial** — constitution and codes complete; laws only for the most 
 |---|---|---|
 | Constitución de la República (1967, with the 1989, 1994, 1996 and 2004 reforms) and its Disposiciones Transitorias y Especiales | `constitucion/` | 2 |
 | Codes (updated texts) | `codigos/` | 13 |
-| Laws (leyes), number range 18.518–20.530 | `leyes/<year>/ley-<n>.md` | 2,010 |
+| Laws (leyes), number range 18.469–20.530 | `leyes/<year>/ley-<n>.md` | 2,059 |
 
 Codes: Código Civil, Código de Comercio, Código Penal, Código General del Proceso, Código del
 Proceso Penal (2017), Código Tributario, Código de la Niñez y la Adolescencia, Código de Aguas,
